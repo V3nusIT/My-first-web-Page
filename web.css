@@ -1,0 +1,38 @@
+body {
+  background-image: url("images/Paws1.jpg");
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {background-color: aliceblue;}
+
+div {
+  background-color: aliceblue; 
+  text-align: center;
+}
+nav {
+  background-color: lightgray;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+}
+
+h3 {
+  margin: 10px;
+}
+p {
+  width: 900px;
+  margin: 10px;
+ 
+}
+
+
+footer {
+  background-color: blanchedalmond;
+  text-align: center;
+  
+}
+   
+
+
