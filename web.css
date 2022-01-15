@@ -2,31 +2,47 @@ body {
   background-image: url("images/Paws1.jpg");
   background-size: cover;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 40px;
 }
-header {background-color: aliceblue;}
-
-div {
-  background-color: aliceblue; 
-  text-align: center;
-}
-nav {
-  background-color: lightgray;
-  text-align: center;
-}
-
 
 h3 {
-  margin: 10px;
+  text-align: center;
 }
+
+header {background-color: rgb(246,244,255);
+        text-align: center;
+  }
+  nav {
+    background-color: rgb(220,232,235);
+    text-align: center;
+}
+  
+.wrapper {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-gap: 5px;
+  padding: 10px;
+  
+  
+}
+
+.box {
+  background-color:rgb(252,251,227);
+  text-align: justify;}
+
+
+
 p {
-  width: 900px;
-  margin: 10px;
+  width: 500px;
+  margin: 20px;
  
 }
-
+.home{
+width: auto;
+}
 
 footer {
-  background-color: blanchedalmond;
+  background-color:rgb(191,231,162);
   text-align: center;
   
 }
