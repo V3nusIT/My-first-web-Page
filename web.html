@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="web.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
    <header>
        <h1>Belgian Shepherd</h1>
        <img src="images/Belgian.jpg" alt="Belgian" height="210px" width="400px" >
        <nav>
-              <button class="Appearance">Appearance
-              <button class="Temperament">Temperament
-              <button class="History">History
-              </button>
+              <button class="Appearance">Appearance </button>
+              <button class="Temperament">Temperament </button>
+              <button class="History">History </button>
+              
+              <div id="interactive-button">interactive-button</div> 
        </nav>
     </header>
     <div class="wrapper">
@@ -105,13 +107,12 @@
                    National Park.[15]
             
             <img src="images/Identify Malinois.jpg" alt="M" height="250px" width="350px">
-            
-             <ul class="Herding"> Herding
-
-                <li> HEIGHT: 22 to 24 inches (female), 24 to 26 inches (male)</li>
-            
-                 40 to 60 pounds (female), 60 to 80 pounds (male)
-                Short, smooth double coat
+            <p>Herding</p>
+             <ul>
+                <li> HEIGHT: 22 to 24 inches (female), 24 to 26 inches (male),
+                    40 to 60 pounds (female), 60 to 80 pounds (male)
+                Short, smooth double coat.
+                </li>
             
                 <li>COAT COLOR: Fawn, mahogany, red, red sable, or fawn sable with a black mask</li>
             
@@ -121,12 +122,12 @@
             
                 <li> HYPOALLERGENIC: No</li>
             
-            ORIGIN: Belgium</ul>
-        </p>
+                <li>ORIGIN: Belgium</li>
+             </ul>
              </article>
             </div>
     </div>
-        
     <footer>&copy 2021 V3nusIT, Wikipedia </footer>
 </body>
 </html>
+<script type="text/javascript" src="web.js"></script>
